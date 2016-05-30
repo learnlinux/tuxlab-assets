@@ -1,0 +1,32 @@
+{
+  "name": "tuxlab-assets",
+  "version": "0.1.0",
+  "description": "Logo, Icons and Fonts for the TuxLab project",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/learnlinux/tuxlab-assets.git"
+  },
+  "keywords": [
+    "tuxlab"
+  ],
+  "author": "Derek T Brown",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/learnlinux/tuxlab-assets/issues"
+  },
+  "homepage": "https://github.com/learnlinux/tuxlab-assets#readme",
+  "devDependencies": {
+    "gulp-cheerio": "^0.6.2",
+    "gulp-iconfont": "^8.0.0",
+    "gulp-iconfont-css": "^2.1.0",
+    "gulp-sass": "^2.3.1",
+    "gulp-svg2png": "^2.0.0"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+  }
+}

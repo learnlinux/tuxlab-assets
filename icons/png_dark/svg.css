@@ -1,0 +1,288 @@
+
+.add {
+  background-image: url(svg.png);
+  background-position: 0px 0px;
+  width: 76px;
+  height: 76px;
+}
+
+.apple {
+  background-image: url(svg.png);
+  background-position: -76px 0px;
+  width: 76px;
+  height: 76px;
+}
+
+.bar {
+  background-image: url(svg.png);
+  background-position: -152px 0px;
+  width: 76px;
+  height: 76px;
+}
+
+.checkmark {
+  background-image: url(svg.png);
+  background-position: -228px 0px;
+  width: 76px;
+  height: 76px;
+}
+
+.cog {
+  background-image: url(svg.png);
+  background-position: -304px 0px;
+  width: 76px;
+  height: 76px;
+}
+
+.console {
+  background-image: url(svg.png);
+  background-position: 0px -76px;
+  width: 76px;
+  height: 76px;
+}
+
+.cross {
+  background-image: url(svg.png);
+  background-position: -76px -76px;
+  width: 76px;
+  height: 76px;
+}
+
+.database {
+  background-image: url(svg.png);
+  background-position: -152px -76px;
+  width: 76px;
+  height: 76px;
+}
+
+.diagram {
+  background-image: url(svg.png);
+  background-position: -228px -76px;
+  width: 76px;
+  height: 76px;
+}
+
+.down {
+  background-image: url(svg.png);
+  background-position: -304px -76px;
+  width: 76px;
+  height: 76px;
+}
+
+.f {
+  background-image: url(svg.png);
+  background-position: 0px -152px;
+  width: 76px;
+  height: 76px;
+}
+
+.facebook {
+  background-image: url(svg.png);
+  background-position: -76px -152px;
+  width: 76px;
+  height: 76px;
+}
+
+.function {
+  background-image: url(svg.png);
+  background-position: -152px -152px;
+  width: 76px;
+  height: 76px;
+}
+
+.group {
+  background-image: url(svg.png);
+  background-position: -228px -152px;
+  width: 76px;
+  height: 76px;
+}
+
+.hourglass {
+  background-image: url(svg.png);
+  background-position: -304px -152px;
+  width: 76px;
+  height: 76px;
+}
+
+.infinite {
+  background-image: url(svg.png);
+  background-position: 0px -228px;
+  width: 76px;
+  height: 76px;
+}
+
+.journal {
+  background-image: url(svg.png);
+  background-position: -76px -228px;
+  width: 76px;
+  height: 76px;
+}
+
+.leave {
+  background-image: url(svg.png);
+  background-position: -152px -228px;
+  width: 76px;
+  height: 76px;
+}
+
+.left {
+  background-image: url(svg.png);
+  background-position: -228px -228px;
+  width: 76px;
+  height: 76px;
+}
+
+.linkedin {
+  background-image: url(svg.png);
+  background-position: -304px -228px;
+  width: 76px;
+  height: 76px;
+}
+
+.list {
+  background-image: url(svg.png);
+  background-position: 0px -304px;
+  width: 76px;
+  height: 76px;
+}
+
+.multiple {
+  background-image: url(svg.png);
+  background-position: -76px -304px;
+  width: 76px;
+  height: 76px;
+}
+
+.pdf {
+  background-image: url(svg.png);
+  background-position: -152px -304px;
+  width: 76px;
+  height: 76px;
+}
+
+.potion {
+  background-image: url(svg.png);
+  background-position: -228px -304px;
+  width: 76px;
+  height: 76px;
+}
+
+.profile {
+  background-image: url(svg.png);
+  background-position: -304px -304px;
+  width: 76px;
+  height: 76px;
+}
+
+.refresh {
+  background-image: url(svg.png);
+  background-position: 0px -380px;
+  width: 76px;
+  height: 76px;
+}
+
+.right {
+  background-image: url(svg.png);
+  background-position: -76px -380px;
+  width: 76px;
+  height: 76px;
+}
+
+.rocket {
+  background-image: url(svg.png);
+  background-position: -152px -380px;
+  width: 76px;
+  height: 76px;
+}
+
+.server {
+  background-image: url(svg.png);
+  background-position: -228px -380px;
+  width: 76px;
+  height: 76px;
+}
+
+.settings {
+  background-image: url(svg.png);
+  background-position: -304px -380px;
+  width: 76px;
+  height: 76px;
+}
+
+.sharethis {
+  background-image: url(svg.png);
+  background-position: 0px -456px;
+  width: 76px;
+  height: 76px;
+}
+
+.timer {
+  background-image: url(svg.png);
+  background-position: -76px -456px;
+  width: 76px;
+  height: 76px;
+}
+
+.tools {
+  background-image: url(svg.png);
+  background-position: -152px -456px;
+  width: 76px;
+  height: 76px;
+}
+
+.twitter {
+  background-image: url(svg.png);
+  background-position: -228px -456px;
+  width: 76px;
+  height: 76px;
+}
+
+.uncrossed {
+  background-image: url(svg.png);
+  background-position: -304px -456px;
+  width: 76px;
+  height: 76px;
+}
+
+.up {
+  background-image: url(svg.png);
+  background-position: 0px -532px;
+  width: 76px;
+  height: 76px;
+}
+
+.upload {
+  background-image: url(svg.png);
+  background-position: -76px -532px;
+  width: 76px;
+  height: 76px;
+}
+
+.warning {
+  background-image: url(svg.png);
+  background-position: -152px -532px;
+  width: 76px;
+  height: 76px;
+}
+
+.window {
+  background-image: url(svg.png);
+  background-position: -228px -532px;
+  width: 76px;
+  height: 76px;
+}
+
+.wire {
+  background-image: url(svg.png);
+  background-position: -304px -532px;
+  width: 76px;
+  height: 76px;
+}
+
+.xml {
+  background-image: url(svg.png);
+  background-position: 0px -608px;
+  width: 76px;
+  height: 76px;
+}
+

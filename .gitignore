@@ -1,0 +1,18 @@
+# Sass
+fonts/tuxlab-icon/.sass-cache/*
+*.css.map
+
+# Gulp
+.DS_Store
+*.log
+node_modules
+build
+*.node
+components
+coverage
+*.orig
+.idea
+sandbox
+test/out-fixtures/*
+test/watch-*.txt
+gulp.1
