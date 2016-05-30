@@ -150,6 +150,9 @@
 	@if $filename == xml {
 		$char: "\E029";
 	}
+	@if $filename == bowtie {
+		$char: "\E02A";
+	}
 
 	@return $char;
 }
@@ -287,4 +290,7 @@
 }
 .icon-xml {
 	@include icon(xml);
+}
+.icon-bowtie {
+	@include icon(bowtie);
 }
