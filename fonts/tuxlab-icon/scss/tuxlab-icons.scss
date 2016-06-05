@@ -1,11 +1,11 @@
 @font-face {
 	font-family: "tuxlab-icon";
-	src: url('fonts/tuxlab-icon/tuxlab-icon.eot');
-	src: url('fonts/tuxlab-icon/tuxlab-icon.eot?#iefix') format('eot'),
-		url('fonts/tuxlab-icon/tuxlab-icon.woff2') format('woff2'),
-		url('fonts/tuxlab-icon/tuxlab-icon.woff') format('woff'),
-		url('fonts/tuxlab-icon/tuxlab-icon.ttf') format('truetype'),
-		url('fonts/tuxlab-icon/tuxlab-icon.svg#tuxlab-icon') format('svg');
+	src: url('/assets/fonts/tuxlab-icon/tuxlab-icon.eot');
+	src: url('/assets/fonts/tuxlab-icon/tuxlab-icon.eot?#iefix') format('eot'),
+		url('/assets/fonts/tuxlab-icon/tuxlab-icon.woff2') format('woff2'),
+		url('/assets/fonts/tuxlab-icon/tuxlab-icon.woff') format('woff'),
+		url('/assets/fonts/tuxlab-icon/tuxlab-icon.ttf') format('truetype'),
+		url('/assets/fonts/tuxlab-icon/tuxlab-icon.svg#tuxlab-icon') format('svg');
 }
 
 @mixin tuxicon-styles {
@@ -27,130 +27,130 @@
 @function tuxicon-char($filename) {
 	$char: "";
 
-	@if $filename == bowtie {
+	@if $filename == add {
 		$char: "\E001";
 	}
-	@if $filename == add {
+	@if $filename == apple {
 		$char: "\E002";
 	}
-	@if $filename == apple {
+	@if $filename == bar {
 		$char: "\E003";
 	}
-	@if $filename == bar {
+	@if $filename == checkmark {
 		$char: "\E004";
 	}
-	@if $filename == checkmark {
+	@if $filename == cog {
 		$char: "\E005";
 	}
-	@if $filename == cog {
+	@if $filename == console {
 		$char: "\E006";
 	}
-	@if $filename == console {
+	@if $filename == cross {
 		$char: "\E007";
 	}
-	@if $filename == cross {
+	@if $filename == database {
 		$char: "\E008";
 	}
-	@if $filename == database {
+	@if $filename == diagram {
 		$char: "\E009";
 	}
-	@if $filename == diagram {
+	@if $filename == down {
 		$char: "\E00A";
 	}
-	@if $filename == down {
+	@if $filename == f {
 		$char: "\E00B";
 	}
-	@if $filename == f {
+	@if $filename == facebook {
 		$char: "\E00C";
 	}
-	@if $filename == facebook {
+	@if $filename == function {
 		$char: "\E00D";
 	}
-	@if $filename == function {
+	@if $filename == group {
 		$char: "\E00E";
 	}
-	@if $filename == group {
+	@if $filename == hourglass {
 		$char: "\E00F";
 	}
-	@if $filename == hourglass {
+	@if $filename == infinite {
 		$char: "\E010";
 	}
-	@if $filename == infinite {
+	@if $filename == journal {
 		$char: "\E011";
 	}
-	@if $filename == journal {
+	@if $filename == leave {
 		$char: "\E012";
 	}
-	@if $filename == leave {
+	@if $filename == left {
 		$char: "\E013";
 	}
-	@if $filename == left {
+	@if $filename == linkedin {
 		$char: "\E014";
 	}
-	@if $filename == linkedin {
+	@if $filename == list {
 		$char: "\E015";
 	}
-	@if $filename == list {
+	@if $filename == multiple {
 		$char: "\E016";
 	}
-	@if $filename == multiple {
+	@if $filename == pdf {
 		$char: "\E017";
 	}
-	@if $filename == pdf {
+	@if $filename == potion {
 		$char: "\E018";
 	}
-	@if $filename == potion {
+	@if $filename == profile {
 		$char: "\E019";
 	}
-	@if $filename == profile {
+	@if $filename == refresh {
 		$char: "\E01A";
 	}
-	@if $filename == refresh {
+	@if $filename == right {
 		$char: "\E01B";
 	}
-	@if $filename == right {
+	@if $filename == rocket {
 		$char: "\E01C";
 	}
-	@if $filename == rocket {
+	@if $filename == server {
 		$char: "\E01D";
 	}
-	@if $filename == server {
+	@if $filename == settings {
 		$char: "\E01E";
 	}
-	@if $filename == settings {
+	@if $filename == sharethis {
 		$char: "\E01F";
 	}
-	@if $filename == sharethis {
+	@if $filename == timer {
 		$char: "\E020";
 	}
-	@if $filename == timer {
+	@if $filename == tools {
 		$char: "\E021";
 	}
-	@if $filename == tools {
+	@if $filename == twitter {
 		$char: "\E022";
 	}
-	@if $filename == twitter {
+	@if $filename == uncrossed {
 		$char: "\E023";
 	}
-	@if $filename == uncrossed {
+	@if $filename == up {
 		$char: "\E024";
 	}
-	@if $filename == up {
+	@if $filename == upload {
 		$char: "\E025";
 	}
-	@if $filename == upload {
+	@if $filename == warning {
 		$char: "\E026";
 	}
-	@if $filename == warning {
+	@if $filename == window {
 		$char: "\E027";
 	}
-	@if $filename == window {
+	@if $filename == wire {
 		$char: "\E028";
 	}
-	@if $filename == wire {
+	@if $filename == xml {
 		$char: "\E029";
 	}
-	@if $filename == xml {
+	@if $filename == bowtie {
 		$char: "\E02A";
 	}
 
@@ -168,9 +168,6 @@
 	}
 }
 
-.tuxicon-bowtie {
-	@include tuxicon(bowtie);
-}
 .tuxicon-add {
 	@include tuxicon(add);
 }
@@ -293,4 +290,7 @@
 }
 .tuxicon-xml {
 	@include tuxicon(xml);
+}
+.tuxicon-bowtie {
+	@include tuxicon(bowtie);
 }

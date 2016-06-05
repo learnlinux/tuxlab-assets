@@ -50,7 +50,7 @@ gulp.task('iconfont', function(){
         cssClass: 'tuxicon',
         path: 'fonts/tuxlab-icon/templates/_icons.scss',
         targetPath: 'scss/tuxlab-icons.scss',
-        fontPath: 'fonts/tuxlab-icon/'
+        fontPath: '/assets/fonts/tuxlab-icon/'
      }))
     .pipe(iconfont({
       fontName: 'tuxlab-icon', // required
