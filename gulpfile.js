@@ -67,7 +67,7 @@ gulp.task('iconfont', function(){
 
 /** Compile Icon Font SCSS **/
 gulp.task('iconfont-sass',['iconfont'], function(){
-  return gulp.src(['fonts/tuxlab-icon/scss/_tuxlab-icons.scss'])
+  return gulp.src(['fonts/tuxlab-icon/scss/tuxlab-icons.scss'])
    .pipe(sass().on('error', sass.logError))
    .pipe(gulp.dest('fonts/tuxlab-icon/css'));
 });

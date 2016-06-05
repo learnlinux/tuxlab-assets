@@ -3,7 +3,8 @@
   font-family: "tuxlab-icon";
   src: url("fonts/tuxlab-icon/tuxlab-icon.eot");
   src: url("fonts/tuxlab-icon/tuxlab-icon.eot?#iefix") format("eot"), url("fonts/tuxlab-icon/tuxlab-icon.woff2") format("woff2"), url("fonts/tuxlab-icon/tuxlab-icon.woff") format("woff"), url("fonts/tuxlab-icon/tuxlab-icon.ttf") format("truetype"), url("fonts/tuxlab-icon/tuxlab-icon.svg#tuxlab-icon") format("svg"); }
-.icon-add:before, .icon-apple:before, .icon-bar:before, .icon-checkmark:before, .icon-cog:before, .icon-console:before, .icon-cross:before, .icon-database:before, .icon-diagram:before, .icon-down:before, .icon-f:before, .icon-facebook:before, .icon-function:before, .icon-group:before, .icon-hourglass:before, .icon-infinite:before, .icon-journal:before, .icon-leave:before, .icon-left:before, .icon-linkedin:before, .icon-list:before, .icon-multiple:before, .icon-pdf:before, .icon-potion:before, .icon-profile:before, .icon-refresh:before, .icon-right:before, .icon-rocket:before, .icon-server:before, .icon-settings:before, .icon-sharethis:before, .icon-timer:before, .icon-tools:before, .icon-twitter:before, .icon-uncrossed:before, .icon-up:before, .icon-upload:before, .icon-warning:before, .icon-window:before, .icon-wire:before, .icon-xml:before {
+
+.tuxicon-bowtie:before, .tuxicon-add:before, .tuxicon-apple:before, .tuxicon-bar:before, .tuxicon-checkmark:before, .tuxicon-cog:before, .tuxicon-console:before, .tuxicon-cross:before, .tuxicon-database:before, .tuxicon-diagram:before, .tuxicon-down:before, .tuxicon-f:before, .tuxicon-facebook:before, .tuxicon-function:before, .tuxicon-group:before, .tuxicon-hourglass:before, .tuxicon-infinite:before, .tuxicon-journal:before, .tuxicon-leave:before, .tuxicon-left:before, .tuxicon-linkedin:before, .tuxicon-list:before, .tuxicon-multiple:before, .tuxicon-pdf:before, .tuxicon-potion:before, .tuxicon-profile:before, .tuxicon-refresh:before, .tuxicon-right:before, .tuxicon-rocket:before, .tuxicon-server:before, .tuxicon-settings:before, .tuxicon-sharethis:before, .tuxicon-timer:before, .tuxicon-tools:before, .tuxicon-twitter:before, .tuxicon-uncrossed:before, .tuxicon-up:before, .tuxicon-upload:before, .tuxicon-warning:before, .tuxicon-window:before, .tuxicon-wire:before, .tuxicon-xml:before {
   font-family: "tuxlab-icon";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -13,127 +14,128 @@
   text-decoration: none;
   text-transform: none; }
 
-.icon-add:before {
+.tuxicon-bowtie:before {
   content: ""; }
 
-.icon-apple:before {
+.tuxicon-add:before {
   content: ""; }
 
-.icon-bar:before {
+.tuxicon-apple:before {
   content: ""; }
 
-.icon-checkmark:before {
+.tuxicon-bar:before {
   content: ""; }
 
-.icon-cog:before {
+.tuxicon-checkmark:before {
   content: ""; }
 
-.icon-console:before {
+.tuxicon-cog:before {
   content: ""; }
 
-.icon-cross:before {
+.tuxicon-console:before {
   content: ""; }
 
-.icon-database:before {
+.tuxicon-cross:before {
   content: ""; }
 
-.icon-diagram:before {
+.tuxicon-database:before {
   content: ""; }
 
-.icon-down:before {
+.tuxicon-diagram:before {
   content: ""; }
 
-.icon-f:before {
+.tuxicon-down:before {
   content: ""; }
 
-.icon-facebook:before {
+.tuxicon-f:before {
   content: ""; }
 
-.icon-function:before {
+.tuxicon-facebook:before {
   content: ""; }
 
-.icon-group:before {
+.tuxicon-function:before {
   content: ""; }
 
-.icon-hourglass:before {
+.tuxicon-group:before {
   content: ""; }
 
-.icon-infinite:before {
+.tuxicon-hourglass:before {
   content: ""; }
 
-.icon-journal:before {
+.tuxicon-infinite:before {
   content: ""; }
 
-.icon-leave:before {
+.tuxicon-journal:before {
   content: ""; }
 
-.icon-left:before {
+.tuxicon-leave:before {
   content: ""; }
 
-.icon-linkedin:before {
+.tuxicon-left:before {
   content: ""; }
 
-.icon-list:before {
+.tuxicon-linkedin:before {
   content: ""; }
 
-.icon-multiple:before {
+.tuxicon-list:before {
   content: ""; }
 
-.icon-pdf:before {
+.tuxicon-multiple:before {
   content: ""; }
 
-.icon-potion:before {
+.tuxicon-pdf:before {
   content: ""; }
 
-.icon-profile:before {
+.tuxicon-potion:before {
   content: ""; }
 
-.icon-refresh:before {
+.tuxicon-profile:before {
   content: ""; }
 
-.icon-right:before {
+.tuxicon-refresh:before {
   content: ""; }
 
-.icon-rocket:before {
+.tuxicon-right:before {
   content: ""; }
 
-.icon-server:before {
+.tuxicon-rocket:before {
   content: ""; }
 
-.icon-settings:before {
+.tuxicon-server:before {
   content: ""; }
 
-.icon-sharethis:before {
+.tuxicon-settings:before {
   content: ""; }
 
-.icon-timer:before {
+.tuxicon-sharethis:before {
   content: ""; }
 
-.icon-tools:before {
+.tuxicon-timer:before {
   content: ""; }
 
-.icon-twitter:before {
+.tuxicon-tools:before {
   content: ""; }
 
-.icon-uncrossed:before {
+.tuxicon-twitter:before {
   content: ""; }
 
-.icon-up:before {
+.tuxicon-uncrossed:before {
   content: ""; }
 
-.icon-upload:before {
+.tuxicon-up:before {
   content: ""; }
 
-.icon-warning:before {
+.tuxicon-upload:before {
   content: ""; }
 
-.icon-window:before {
+.tuxicon-warning:before {
   content: ""; }
 
-.icon-wire:before {
+.tuxicon-window:before {
   content: ""; }
 
-.icon-xml:before {
+.tuxicon-wire:before {
   content: ""; }
 
-/*# sourceMappingURL=tuxlab-icons.css.map */
+.tuxicon-xml:before {
+  content: ""; }
