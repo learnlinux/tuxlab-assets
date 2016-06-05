@@ -8,7 +8,7 @@
 		url('fonts/tuxlab-icon/tuxlab-icon.svg#tuxlab-icon') format('svg');
 }
 
-@mixin icon-styles {
+@mixin tuxicon-styles {
 	font-family: "tuxlab-icon";
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
@@ -20,277 +20,277 @@
 	text-transform: none;
 }
 
-%icon {
-	@include icon-styles;
+%tuxicon {
+	@include tuxicon-styles;
 }
 
-@function icon-char($filename) {
+@function tuxicon-char($filename) {
 	$char: "";
 
-	@if $filename == add {
+	@if $filename == bowtie {
 		$char: "\E001";
 	}
-	@if $filename == apple {
+	@if $filename == add {
 		$char: "\E002";
 	}
-	@if $filename == bar {
+	@if $filename == apple {
 		$char: "\E003";
 	}
-	@if $filename == checkmark {
+	@if $filename == bar {
 		$char: "\E004";
 	}
-	@if $filename == cog {
+	@if $filename == checkmark {
 		$char: "\E005";
 	}
-	@if $filename == console {
+	@if $filename == cog {
 		$char: "\E006";
 	}
-	@if $filename == cross {
+	@if $filename == console {
 		$char: "\E007";
 	}
-	@if $filename == database {
+	@if $filename == cross {
 		$char: "\E008";
 	}
-	@if $filename == diagram {
+	@if $filename == database {
 		$char: "\E009";
 	}
-	@if $filename == down {
+	@if $filename == diagram {
 		$char: "\E00A";
 	}
-	@if $filename == f {
+	@if $filename == down {
 		$char: "\E00B";
 	}
-	@if $filename == facebook {
+	@if $filename == f {
 		$char: "\E00C";
 	}
-	@if $filename == function {
+	@if $filename == facebook {
 		$char: "\E00D";
 	}
-	@if $filename == group {
+	@if $filename == function {
 		$char: "\E00E";
 	}
-	@if $filename == hourglass {
+	@if $filename == group {
 		$char: "\E00F";
 	}
-	@if $filename == infinite {
+	@if $filename == hourglass {
 		$char: "\E010";
 	}
-	@if $filename == journal {
+	@if $filename == infinite {
 		$char: "\E011";
 	}
-	@if $filename == leave {
+	@if $filename == journal {
 		$char: "\E012";
 	}
-	@if $filename == left {
+	@if $filename == leave {
 		$char: "\E013";
 	}
-	@if $filename == linkedin {
+	@if $filename == left {
 		$char: "\E014";
 	}
-	@if $filename == list {
+	@if $filename == linkedin {
 		$char: "\E015";
 	}
-	@if $filename == multiple {
+	@if $filename == list {
 		$char: "\E016";
 	}
-	@if $filename == pdf {
+	@if $filename == multiple {
 		$char: "\E017";
 	}
-	@if $filename == potion {
+	@if $filename == pdf {
 		$char: "\E018";
 	}
-	@if $filename == profile {
+	@if $filename == potion {
 		$char: "\E019";
 	}
-	@if $filename == refresh {
+	@if $filename == profile {
 		$char: "\E01A";
 	}
-	@if $filename == right {
+	@if $filename == refresh {
 		$char: "\E01B";
 	}
-	@if $filename == rocket {
+	@if $filename == right {
 		$char: "\E01C";
 	}
-	@if $filename == server {
+	@if $filename == rocket {
 		$char: "\E01D";
 	}
-	@if $filename == settings {
+	@if $filename == server {
 		$char: "\E01E";
 	}
-	@if $filename == sharethis {
+	@if $filename == settings {
 		$char: "\E01F";
 	}
-	@if $filename == timer {
+	@if $filename == sharethis {
 		$char: "\E020";
 	}
-	@if $filename == tools {
+	@if $filename == timer {
 		$char: "\E021";
 	}
-	@if $filename == twitter {
+	@if $filename == tools {
 		$char: "\E022";
 	}
-	@if $filename == uncrossed {
+	@if $filename == twitter {
 		$char: "\E023";
 	}
-	@if $filename == up {
+	@if $filename == uncrossed {
 		$char: "\E024";
 	}
-	@if $filename == upload {
+	@if $filename == up {
 		$char: "\E025";
 	}
-	@if $filename == warning {
+	@if $filename == upload {
 		$char: "\E026";
 	}
-	@if $filename == window {
+	@if $filename == warning {
 		$char: "\E027";
 	}
-	@if $filename == wire {
+	@if $filename == window {
 		$char: "\E028";
 	}
-	@if $filename == xml {
+	@if $filename == wire {
 		$char: "\E029";
 	}
-	@if $filename == bowtie {
+	@if $filename == xml {
 		$char: "\E02A";
 	}
 
 	@return $char;
 }
 
-@mixin icon($filename, $insert: before, $extend: true) {
+@mixin tuxicon($filename, $insert: before, $extend: true) {
 	&:#{$insert} {
 		@if $extend {
-			@extend %icon;
+			@extend %tuxicon;
 		} @else {
-			@include icon-styles;
+			@include tuxicon-styles;
 		}
-		content: icon-char($filename);
+		content: tuxicon-char($filename);
 	}
 }
 
-.icon-add {
-	@include icon(add);
+.tuxicon-bowtie {
+	@include tuxicon(bowtie);
 }
-.icon-apple {
-	@include icon(apple);
+.tuxicon-add {
+	@include tuxicon(add);
 }
-.icon-bar {
-	@include icon(bar);
+.tuxicon-apple {
+	@include tuxicon(apple);
 }
-.icon-checkmark {
-	@include icon(checkmark);
+.tuxicon-bar {
+	@include tuxicon(bar);
 }
-.icon-cog {
-	@include icon(cog);
+.tuxicon-checkmark {
+	@include tuxicon(checkmark);
 }
-.icon-console {
-	@include icon(console);
+.tuxicon-cog {
+	@include tuxicon(cog);
 }
-.icon-cross {
-	@include icon(cross);
+.tuxicon-console {
+	@include tuxicon(console);
 }
-.icon-database {
-	@include icon(database);
+.tuxicon-cross {
+	@include tuxicon(cross);
 }
-.icon-diagram {
-	@include icon(diagram);
+.tuxicon-database {
+	@include tuxicon(database);
 }
-.icon-down {
-	@include icon(down);
+.tuxicon-diagram {
+	@include tuxicon(diagram);
 }
-.icon-f {
-	@include icon(f);
+.tuxicon-down {
+	@include tuxicon(down);
 }
-.icon-facebook {
-	@include icon(facebook);
+.tuxicon-f {
+	@include tuxicon(f);
 }
-.icon-function {
-	@include icon(function);
+.tuxicon-facebook {
+	@include tuxicon(facebook);
 }
-.icon-group {
-	@include icon(group);
+.tuxicon-function {
+	@include tuxicon(function);
 }
-.icon-hourglass {
-	@include icon(hourglass);
+.tuxicon-group {
+	@include tuxicon(group);
 }
-.icon-infinite {
-	@include icon(infinite);
+.tuxicon-hourglass {
+	@include tuxicon(hourglass);
 }
-.icon-journal {
-	@include icon(journal);
+.tuxicon-infinite {
+	@include tuxicon(infinite);
 }
-.icon-leave {
-	@include icon(leave);
+.tuxicon-journal {
+	@include tuxicon(journal);
 }
-.icon-left {
-	@include icon(left);
+.tuxicon-leave {
+	@include tuxicon(leave);
 }
-.icon-linkedin {
-	@include icon(linkedin);
+.tuxicon-left {
+	@include tuxicon(left);
 }
-.icon-list {
-	@include icon(list);
+.tuxicon-linkedin {
+	@include tuxicon(linkedin);
 }
-.icon-multiple {
-	@include icon(multiple);
+.tuxicon-list {
+	@include tuxicon(list);
 }
-.icon-pdf {
-	@include icon(pdf);
+.tuxicon-multiple {
+	@include tuxicon(multiple);
 }
-.icon-potion {
-	@include icon(potion);
+.tuxicon-pdf {
+	@include tuxicon(pdf);
 }
-.icon-profile {
-	@include icon(profile);
+.tuxicon-potion {
+	@include tuxicon(potion);
 }
-.icon-refresh {
-	@include icon(refresh);
+.tuxicon-profile {
+	@include tuxicon(profile);
 }
-.icon-right {
-	@include icon(right);
+.tuxicon-refresh {
+	@include tuxicon(refresh);
 }
-.icon-rocket {
-	@include icon(rocket);
+.tuxicon-right {
+	@include tuxicon(right);
 }
-.icon-server {
-	@include icon(server);
+.tuxicon-rocket {
+	@include tuxicon(rocket);
 }
-.icon-settings {
-	@include icon(settings);
+.tuxicon-server {
+	@include tuxicon(server);
 }
-.icon-sharethis {
-	@include icon(sharethis);
+.tuxicon-settings {
+	@include tuxicon(settings);
 }
-.icon-timer {
-	@include icon(timer);
+.tuxicon-sharethis {
+	@include tuxicon(sharethis);
 }
-.icon-tools {
-	@include icon(tools);
+.tuxicon-timer {
+	@include tuxicon(timer);
 }
-.icon-twitter {
-	@include icon(twitter);
+.tuxicon-tools {
+	@include tuxicon(tools);
 }
-.icon-uncrossed {
-	@include icon(uncrossed);
+.tuxicon-twitter {
+	@include tuxicon(twitter);
 }
-.icon-up {
-	@include icon(up);
+.tuxicon-uncrossed {
+	@include tuxicon(uncrossed);
 }
-.icon-upload {
-	@include icon(upload);
+.tuxicon-up {
+	@include tuxicon(up);
 }
-.icon-warning {
-	@include icon(warning);
+.tuxicon-upload {
+	@include tuxicon(upload);
 }
-.icon-window {
-	@include icon(window);
+.tuxicon-warning {
+	@include tuxicon(warning);
 }
-.icon-wire {
-	@include icon(wire);
+.tuxicon-window {
+	@include tuxicon(window);
 }
-.icon-xml {
-	@include icon(xml);
+.tuxicon-wire {
+	@include tuxicon(wire);
 }
-.icon-bowtie {
-	@include icon(bowtie);
+.tuxicon-xml {
+	@include tuxicon(xml);
 }

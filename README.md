@@ -2,7 +2,7 @@
 TuxLab is an open source platform for creating Interactive Linux Courses. This repository contains the assets for the Logo, Icons, Fonts and Design for TuxLab application.  If you are instead looking for the application source code itself, visit the [App Repository](https://github.com/learnlinux/tuxlab-app).
 
 ## Logo
-The TuxLab logo is copyright the TuxLab Project, a project of the School of Computer Science at Carnegie Mellon University.
+The TuxLab logo is licensed under Creative Commons 3.0 with Attribution.
 
 ## Colors
 
