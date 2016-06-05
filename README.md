@@ -18,6 +18,4 @@ Icons are selectively compiled from a variety of sources (and are sorted by sour
 
 ## Fonts
 
-* [Montserrat](https://www.fontsquirrel.com/fonts/montserrat) is used for headings (particularly Extra Bold), and is used in the logo - It is licensed under the SIL Open Font License 1.1.
-
-* [Open Sans](https://github.com/google/fonts/tree/master/apache/opensans) is used for body text and light subtitles throughout the TuxLab app - it is licensed under the Apache 2.0 license.
+* [Open Sans](https://github.com/google/fonts/tree/master/apache/opensans) - it is licensed under the Apache 2.0 license.
