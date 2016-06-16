@@ -4,7 +4,7 @@
   src: url("/assets/fonts/tuxlab-icon/tuxlab-icon.eot");
   src: url("/assets/fonts/tuxlab-icon/tuxlab-icon.eot?#iefix") format("eot"), url("/assets/fonts/tuxlab-icon/tuxlab-icon.woff2") format("woff2"), url("/assets/fonts/tuxlab-icon/tuxlab-icon.woff") format("woff"), url("/assets/fonts/tuxlab-icon/tuxlab-icon.ttf") format("truetype"), url("/assets/fonts/tuxlab-icon/tuxlab-icon.svg#tuxlab-icon") format("svg"); }
 
-.tuxicon-add:before, .tuxicon-apple:before, .tuxicon-bar:before, .tuxicon-checkmark:before, .tuxicon-cog:before, .tuxicon-console:before, .tuxicon-cross:before, .tuxicon-database:before, .tuxicon-diagram:before, .tuxicon-down:before, .tuxicon-f:before, .tuxicon-facebook:before, .tuxicon-function:before, .tuxicon-google:before, .tuxicon-group:before, .tuxicon-hourglass:before, .tuxicon-infinite:before, .tuxicon-journal:before, .tuxicon-leave:before, .tuxicon-left:before, .tuxicon-linkedin:before, .tuxicon-list:before, .tuxicon-multiple:before, .tuxicon-pdf:before, .tuxicon-potion:before, .tuxicon-profile:before, .tuxicon-refresh:before, .tuxicon-right:before, .tuxicon-rocket:before, .tuxicon-server:before, .tuxicon-settings:before, .tuxicon-sharethis:before, .tuxicon-timer:before, .tuxicon-tools:before, .tuxicon-twitter:before, .tuxicon-uncrossed:before, .tuxicon-up:before, .tuxicon-upload:before, .tuxicon-warning:before, .tuxicon-window:before, .tuxicon-wire:before, .tuxicon-xml:before, .tuxicon-bowtie:before {
+.tuxicon-bowtie:before, .tuxicon-add:before, .tuxicon-apple:before, .tuxicon-bar:before, .tuxicon-checkmark:before, .tuxicon-cog:before, .tuxicon-console:before, .tuxicon-cross:before, .tuxicon-database:before, .tuxicon-diagram:before, .tuxicon-down:before, .tuxicon-f:before, .tuxicon-facebook:before, .tuxicon-function:before, .tuxicon-google:before, .tuxicon-group:before, .tuxicon-hourglass:before, .tuxicon-infinite:before, .tuxicon-journal:before, .tuxicon-leave:before, .tuxicon-left:before, .tuxicon-linkedin:before, .tuxicon-list:before, .tuxicon-multiple:before, .tuxicon-pdf:before, .tuxicon-potion:before, .tuxicon-profile:before, .tuxicon-refresh:before, .tuxicon-right:before, .tuxicon-rocket:before, .tuxicon-server:before, .tuxicon-settings:before, .tuxicon-sharethis:before, .tuxicon-tick:before, .tuxicon-timer:before, .tuxicon-tools:before, .tuxicon-twitter:before, .tuxicon-uncrossed:before, .tuxicon-up:before, .tuxicon-upload:before, .tuxicon-warning:before, .tuxicon-window:before, .tuxicon-wire:before, .tuxicon-xml:before {
   font-family: "tuxlab-icon";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -14,131 +14,134 @@
   text-decoration: none;
   text-transform: none; }
 
-.tuxicon-add:before {
+.tuxicon-bowtie:before {
   content: ""; }
 
-.tuxicon-apple:before {
+.tuxicon-add:before {
   content: ""; }
 
-.tuxicon-bar:before {
+.tuxicon-apple:before {
   content: ""; }
 
-.tuxicon-checkmark:before {
+.tuxicon-bar:before {
   content: ""; }
 
-.tuxicon-cog:before {
+.tuxicon-checkmark:before {
   content: ""; }
 
-.tuxicon-console:before {
+.tuxicon-cog:before {
   content: ""; }
 
-.tuxicon-cross:before {
+.tuxicon-console:before {
   content: ""; }
 
-.tuxicon-database:before {
+.tuxicon-cross:before {
   content: ""; }
 
-.tuxicon-diagram:before {
+.tuxicon-database:before {
   content: ""; }
 
-.tuxicon-down:before {
+.tuxicon-diagram:before {
   content: ""; }
 
-.tuxicon-f:before {
+.tuxicon-down:before {
   content: ""; }
 
-.tuxicon-facebook:before {
+.tuxicon-f:before {
   content: ""; }
 
-.tuxicon-function:before {
+.tuxicon-facebook:before {
   content: ""; }
 
-.tuxicon-google:before {
+.tuxicon-function:before {
   content: ""; }
 
-.tuxicon-group:before {
+.tuxicon-google:before {
   content: ""; }
 
-.tuxicon-hourglass:before {
+.tuxicon-group:before {
   content: ""; }
 
-.tuxicon-infinite:before {
+.tuxicon-hourglass:before {
   content: ""; }
 
-.tuxicon-journal:before {
+.tuxicon-infinite:before {
   content: ""; }
 
-.tuxicon-leave:before {
+.tuxicon-journal:before {
   content: ""; }
 
-.tuxicon-left:before {
+.tuxicon-leave:before {
   content: ""; }
 
-.tuxicon-linkedin:before {
+.tuxicon-left:before {
   content: ""; }
 
-.tuxicon-list:before {
+.tuxicon-linkedin:before {
   content: ""; }
 
-.tuxicon-multiple:before {
+.tuxicon-list:before {
   content: ""; }
 
-.tuxicon-pdf:before {
+.tuxicon-multiple:before {
   content: ""; }
 
-.tuxicon-potion:before {
+.tuxicon-pdf:before {
   content: ""; }
 
-.tuxicon-profile:before {
+.tuxicon-potion:before {
   content: ""; }
 
-.tuxicon-refresh:before {
+.tuxicon-profile:before {
   content: ""; }
 
-.tuxicon-right:before {
+.tuxicon-refresh:before {
   content: ""; }
 
-.tuxicon-rocket:before {
+.tuxicon-right:before {
   content: ""; }
 
-.tuxicon-server:before {
+.tuxicon-rocket:before {
   content: ""; }
 
-.tuxicon-settings:before {
+.tuxicon-server:before {
   content: ""; }
 
-.tuxicon-sharethis:before {
+.tuxicon-settings:before {
   content: ""; }
 
-.tuxicon-timer:before {
+.tuxicon-sharethis:before {
   content: ""; }
 
-.tuxicon-tools:before {
+.tuxicon-tick:before {
   content: ""; }
 
-.tuxicon-twitter:before {
+.tuxicon-timer:before {
   content: ""; }
 
-.tuxicon-uncrossed:before {
+.tuxicon-tools:before {
   content: ""; }
 
-.tuxicon-up:before {
+.tuxicon-twitter:before {
   content: ""; }
 
-.tuxicon-upload:before {
+.tuxicon-uncrossed:before {
   content: ""; }
 
-.tuxicon-warning:before {
+.tuxicon-up:before {
   content: ""; }
 
-.tuxicon-window:before {
+.tuxicon-upload:before {
   content: ""; }
 
-.tuxicon-wire:before {
+.tuxicon-warning:before {
   content: ""; }
 
-.tuxicon-xml:before {
+.tuxicon-window:before {
   content: ""; }
 
-.tuxicon-bowtie:before {
+.tuxicon-wire:before {
   content: ""; }
+
+.tuxicon-xml:before {
+  content: ""; }
