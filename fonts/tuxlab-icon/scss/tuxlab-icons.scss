@@ -117,47 +117,50 @@
 	@if $filename == rocket {
 		$char: "\E01E";
 	}
-	@if $filename == server {
+	@if $filename == search {
 		$char: "\E01F";
 	}
-	@if $filename == settings {
+	@if $filename == server {
 		$char: "\E020";
 	}
-	@if $filename == sharethis {
+	@if $filename == settings {
 		$char: "\E021";
 	}
-	@if $filename == tick {
+	@if $filename == sharethis {
 		$char: "\E022";
 	}
-	@if $filename == timer {
+	@if $filename == tick {
 		$char: "\E023";
 	}
-	@if $filename == tools {
+	@if $filename == timer {
 		$char: "\E024";
 	}
-	@if $filename == twitter {
+	@if $filename == tools {
 		$char: "\E025";
 	}
-	@if $filename == uncrossed {
+	@if $filename == twitter {
 		$char: "\E026";
 	}
-	@if $filename == up {
+	@if $filename == uncrossed {
 		$char: "\E027";
 	}
-	@if $filename == upload {
+	@if $filename == up {
 		$char: "\E028";
 	}
-	@if $filename == warning {
+	@if $filename == upload {
 		$char: "\E029";
 	}
-	@if $filename == window {
+	@if $filename == warning {
 		$char: "\E02A";
 	}
-	@if $filename == wire {
+	@if $filename == window {
 		$char: "\E02B";
 	}
-	@if $filename == xml {
+	@if $filename == wire {
 		$char: "\E02C";
+	}
+	@if $filename == xml {
+		$char: "\E02D";
 	}
 
 	@return $char;
@@ -263,6 +266,9 @@
 }
 .tuxicon-rocket {
 	@include tuxicon(rocket);
+}
+.tuxicon-search {
+	@include tuxicon(search);
 }
 .tuxicon-server {
 	@include tuxicon(server);
