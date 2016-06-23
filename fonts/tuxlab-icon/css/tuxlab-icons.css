@@ -4,7 +4,7 @@
   src: url("/assets/fonts/tuxlab-icon/tuxlab-icon.eot");
   src: url("/assets/fonts/tuxlab-icon/tuxlab-icon.eot?#iefix") format("eot"), url("/assets/fonts/tuxlab-icon/tuxlab-icon.woff2") format("woff2"), url("/assets/fonts/tuxlab-icon/tuxlab-icon.woff") format("woff"), url("/assets/fonts/tuxlab-icon/tuxlab-icon.ttf") format("truetype"), url("/assets/fonts/tuxlab-icon/tuxlab-icon.svg#tuxlab-icon") format("svg"); }
 
-.tuxicon-bowtie:before, .tuxicon-add:before, .tuxicon-apple:before, .tuxicon-bar:before, .tuxicon-book:before, .tuxicon-checkmark:before, .tuxicon-code:before, .tuxicon-cog:before, .tuxicon-console:before, .tuxicon-cross:before, .tuxicon-database:before, .tuxicon-diagram:before, .tuxicon-down:before, .tuxicon-f:before, .tuxicon-facebook:before, .tuxicon-function:before, .tuxicon-google:before, .tuxicon-group:before, .tuxicon-hourglass:before, .tuxicon-infinite:before, .tuxicon-journal:before, .tuxicon-leave:before, .tuxicon-left:before, .tuxicon-linkedin:before, .tuxicon-list:before, .tuxicon-multiple:before, .tuxicon-pdf:before, .tuxicon-potion:before, .tuxicon-profile:before, .tuxicon-refresh:before, .tuxicon-right:before, .tuxicon-rocket:before, .tuxicon-search:before, .tuxicon-server:before, .tuxicon-settings:before, .tuxicon-sharethis:before, .tuxicon-tick:before, .tuxicon-timer:before, .tuxicon-tools:before, .tuxicon-twitter:before, .tuxicon-uncrossed:before, .tuxicon-up:before, .tuxicon-upload:before, .tuxicon-warning:before, .tuxicon-window:before, .tuxicon-wire:before {
+.tuxicon-add:before, .tuxicon-aplus:before, .tuxicon-apple:before, .tuxicon-bar:before, .tuxicon-book:before, .tuxicon-checkmark:before, .tuxicon-code:before, .tuxicon-cog:before, .tuxicon-console:before, .tuxicon-cross:before, .tuxicon-database:before, .tuxicon-diagram:before, .tuxicon-down:before, .tuxicon-f:before, .tuxicon-facebook:before, .tuxicon-function:before, .tuxicon-google:before, .tuxicon-group:before, .tuxicon-hourglass:before, .tuxicon-infinite:before, .tuxicon-journal:before, .tuxicon-leave:before, .tuxicon-left:before, .tuxicon-linkedin:before, .tuxicon-list:before, .tuxicon-multiple:before, .tuxicon-pdf:before, .tuxicon-potion:before, .tuxicon-profile:before, .tuxicon-refresh:before, .tuxicon-right:before, .tuxicon-rocket:before, .tuxicon-search:before, .tuxicon-server:before, .tuxicon-settings:before, .tuxicon-sharethis:before, .tuxicon-tick:before, .tuxicon-timer:before, .tuxicon-tools:before, .tuxicon-twitter:before, .tuxicon-uncrossed:before, .tuxicon-up:before, .tuxicon-upload:before, .tuxicon-warning:before, .tuxicon-window:before, .tuxicon-wire:before, .tuxicon-bowtie:before {
   font-family: "tuxlab-icon";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -14,10 +14,10 @@
   text-decoration: none;
   text-transform: none; }
 
-.tuxicon-bowtie:before {
+.tuxicon-add:before {
   content: ""; }
 
-.tuxicon-add:before {
+.tuxicon-aplus:before {
   content: ""; }
 
 .tuxicon-apple:before {
@@ -151,3 +151,6 @@
 
 .tuxicon-wire:before {
   content: ""; }
+
+.tuxicon-bowtie:before {
+  content: ""; }
