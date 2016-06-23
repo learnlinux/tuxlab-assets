@@ -33,136 +33,136 @@
 	@if $filename == add {
 		$char: "\E002";
 	}
-	@if $filename == apple {
+	@if $filename == appbar.code.xml {
 		$char: "\E003";
 	}
-	@if $filename == bar {
+	@if $filename == apple {
 		$char: "\E004";
 	}
-	@if $filename == checkmark {
+	@if $filename == bar {
 		$char: "\E005";
 	}
-	@if $filename == cog {
+	@if $filename == book {
 		$char: "\E006";
 	}
-	@if $filename == console {
+	@if $filename == checkmark {
 		$char: "\E007";
 	}
-	@if $filename == cross {
+	@if $filename == cog {
 		$char: "\E008";
 	}
-	@if $filename == database {
+	@if $filename == console {
 		$char: "\E009";
 	}
-	@if $filename == diagram {
+	@if $filename == cross {
 		$char: "\E00A";
 	}
-	@if $filename == down {
+	@if $filename == database {
 		$char: "\E00B";
 	}
-	@if $filename == f {
+	@if $filename == diagram {
 		$char: "\E00C";
 	}
-	@if $filename == facebook {
+	@if $filename == down {
 		$char: "\E00D";
 	}
-	@if $filename == function {
+	@if $filename == f {
 		$char: "\E00E";
 	}
-	@if $filename == google {
+	@if $filename == facebook {
 		$char: "\E00F";
 	}
-	@if $filename == group {
+	@if $filename == function {
 		$char: "\E010";
 	}
-	@if $filename == hourglass {
+	@if $filename == google {
 		$char: "\E011";
 	}
-	@if $filename == infinite {
+	@if $filename == group {
 		$char: "\E012";
 	}
-	@if $filename == journal {
+	@if $filename == hourglass {
 		$char: "\E013";
 	}
-	@if $filename == leave {
+	@if $filename == infinite {
 		$char: "\E014";
 	}
-	@if $filename == left {
+	@if $filename == journal {
 		$char: "\E015";
 	}
-	@if $filename == linkedin {
+	@if $filename == leave {
 		$char: "\E016";
 	}
-	@if $filename == list {
+	@if $filename == left {
 		$char: "\E017";
 	}
-	@if $filename == multiple {
+	@if $filename == linkedin {
 		$char: "\E018";
 	}
-	@if $filename == pdf {
+	@if $filename == list {
 		$char: "\E019";
 	}
-	@if $filename == potion {
+	@if $filename == multiple {
 		$char: "\E01A";
 	}
-	@if $filename == profile {
+	@if $filename == pdf {
 		$char: "\E01B";
 	}
-	@if $filename == refresh {
+	@if $filename == potion {
 		$char: "\E01C";
 	}
-	@if $filename == right {
+	@if $filename == profile {
 		$char: "\E01D";
 	}
-	@if $filename == rocket {
+	@if $filename == refresh {
 		$char: "\E01E";
 	}
-	@if $filename == search {
+	@if $filename == right {
 		$char: "\E01F";
 	}
-	@if $filename == send {
+	@if $filename == rocket {
 		$char: "\E020";
 	}
-	@if $filename == server {
+	@if $filename == search {
 		$char: "\E021";
 	}
-	@if $filename == settings {
+	@if $filename == server {
 		$char: "\E022";
 	}
-	@if $filename == sharethis {
+	@if $filename == settings {
 		$char: "\E023";
 	}
-	@if $filename == tick {
+	@if $filename == sharethis {
 		$char: "\E024";
 	}
-	@if $filename == timer {
+	@if $filename == tick {
 		$char: "\E025";
 	}
-	@if $filename == tools {
+	@if $filename == timer {
 		$char: "\E026";
 	}
-	@if $filename == twitter {
+	@if $filename == tools {
 		$char: "\E027";
 	}
-	@if $filename == uncrossed {
+	@if $filename == twitter {
 		$char: "\E028";
 	}
-	@if $filename == up {
+	@if $filename == uncrossed {
 		$char: "\E029";
 	}
-	@if $filename == upload {
+	@if $filename == up {
 		$char: "\E02A";
 	}
-	@if $filename == warning {
+	@if $filename == upload {
 		$char: "\E02B";
 	}
-	@if $filename == window {
+	@if $filename == warning {
 		$char: "\E02C";
 	}
-	@if $filename == wire {
+	@if $filename == window {
 		$char: "\E02D";
 	}
-	@if $filename == xml {
+	@if $filename == wire {
 		$char: "\E02E";
 	}
 
@@ -186,11 +186,17 @@
 .tuxicon-add {
 	@include tuxicon(add);
 }
+.tuxicon-appbar.code.xml {
+	@include tuxicon(appbar.code.xml);
+}
 .tuxicon-apple {
 	@include tuxicon(apple);
 }
 .tuxicon-bar {
 	@include tuxicon(bar);
+}
+.tuxicon-book {
+	@include tuxicon(book);
 }
 .tuxicon-checkmark {
 	@include tuxicon(checkmark);
@@ -273,9 +279,6 @@
 .tuxicon-search {
 	@include tuxicon(search);
 }
-.tuxicon-send {
-	@include tuxicon(send);
-}
 .tuxicon-server {
 	@include tuxicon(server);
 }
@@ -314,7 +317,4 @@
 }
 .tuxicon-wire {
 	@include tuxicon(wire);
-}
-.tuxicon-xml {
-	@include tuxicon(xml);
 }
