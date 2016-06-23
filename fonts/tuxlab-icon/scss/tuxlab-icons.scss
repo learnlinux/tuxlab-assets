@@ -33,19 +33,19 @@
 	@if $filename == add {
 		$char: "\E002";
 	}
-	@if $filename == appbar.code.xml {
+	@if $filename == apple {
 		$char: "\E003";
 	}
-	@if $filename == apple {
+	@if $filename == bar {
 		$char: "\E004";
 	}
-	@if $filename == bar {
+	@if $filename == book {
 		$char: "\E005";
 	}
-	@if $filename == book {
+	@if $filename == checkmark {
 		$char: "\E006";
 	}
-	@if $filename == checkmark {
+	@if $filename == code {
 		$char: "\E007";
 	}
 	@if $filename == cog {
@@ -186,9 +186,6 @@
 .tuxicon-add {
 	@include tuxicon(add);
 }
-.tuxicon-appbar.code.xml {
-	@include tuxicon(appbar.code.xml);
-}
 .tuxicon-apple {
 	@include tuxicon(apple);
 }
@@ -200,6 +197,9 @@
 }
 .tuxicon-checkmark {
 	@include tuxicon(checkmark);
+}
+.tuxicon-code {
+	@include tuxicon(code);
 }
 .tuxicon-cog {
 	@include tuxicon(cog);
