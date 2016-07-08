@@ -105,71 +105,74 @@
 	@if $filename == list {
 		$char: "\E01A";
 	}
-	@if $filename == multiple {
+	@if $filename == location {
 		$char: "\E01B";
 	}
-	@if $filename == pdf {
+	@if $filename == multiple {
 		$char: "\E01C";
 	}
-	@if $filename == potion {
+	@if $filename == pdf {
 		$char: "\E01D";
 	}
-	@if $filename == profile {
+	@if $filename == potion {
 		$char: "\E01E";
 	}
-	@if $filename == refresh {
+	@if $filename == profile {
 		$char: "\E01F";
 	}
-	@if $filename == right {
+	@if $filename == refresh {
 		$char: "\E020";
 	}
-	@if $filename == rocket {
+	@if $filename == right {
 		$char: "\E021";
 	}
-	@if $filename == search {
+	@if $filename == rocket {
 		$char: "\E022";
 	}
-	@if $filename == server {
+	@if $filename == search {
 		$char: "\E023";
 	}
-	@if $filename == settings {
+	@if $filename == server {
 		$char: "\E024";
 	}
-	@if $filename == sharethis {
+	@if $filename == settings {
 		$char: "\E025";
 	}
-	@if $filename == speaker {
+	@if $filename == sharethis {
 		$char: "\E026";
 	}
-	@if $filename == tick {
+	@if $filename == speaker {
 		$char: "\E027";
 	}
-	@if $filename == timer {
+	@if $filename == tick {
 		$char: "\E028";
 	}
-	@if $filename == tools {
+	@if $filename == timer {
 		$char: "\E029";
 	}
-	@if $filename == twitter {
+	@if $filename == tools {
 		$char: "\E02A";
 	}
-	@if $filename == uncrossed {
+	@if $filename == twitter {
 		$char: "\E02B";
 	}
-	@if $filename == up {
+	@if $filename == uncrossed {
 		$char: "\E02C";
 	}
-	@if $filename == upload {
+	@if $filename == up {
 		$char: "\E02D";
 	}
-	@if $filename == warning {
+	@if $filename == upload {
 		$char: "\E02E";
 	}
-	@if $filename == window {
+	@if $filename == warning {
 		$char: "\E02F";
 	}
-	@if $filename == wire {
+	@if $filename == window {
 		$char: "\E030";
+	}
+	@if $filename == wire {
+		$char: "\E031";
 	}
 
 	@return $char;
@@ -263,6 +266,9 @@
 }
 .tuxicon-list {
 	@include tuxicon(list);
+}
+.tuxicon-location {
+	@include tuxicon(location);
 }
 .tuxicon-multiple {
 	@include tuxicon(multiple);
