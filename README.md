@@ -16,6 +16,8 @@ Icons are selectively compiled from a variety of sources (and are sorted by sour
 
 * [ModernUI Icons](https://github.com/Templarian/WindowsIcons) - licensed under Creative Commons 3.0 with Attribution.
 
+* [FreePik](www.flaticon.com) Icons by FreePik licensed under Creative Commons with Attribuition.f
+
 ## Fonts
 
 * [Open Sans](https://github.com/google/fonts/tree/master/apache/opensans) - it is licensed under the Apache 2.0 license.

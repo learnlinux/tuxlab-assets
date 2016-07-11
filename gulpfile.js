@@ -47,6 +47,8 @@ gulp.task('iconfont', function(){
   return gulp.src(['icons/svg/*/*.svg'])
      .pipe(iconfontCss({
         fontName: 'tuxlab-icon',
+        normalize: true,
+        fontHeight: 1001,
         cssClass: 'tuxicon',
         path: 'fonts/tuxlab-icon/templates/_icons.scss',
         targetPath: 'scss/tuxlab-icons.scss',
