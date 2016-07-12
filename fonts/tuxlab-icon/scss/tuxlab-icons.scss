@@ -30,61 +30,61 @@
 	@if $filename == compass {
 		$char: "\E001";
 	}
-	@if $filename == bowtie {
+	@if $filename == add {
 		$char: "\E002";
 	}
-	@if $filename == add {
+	@if $filename == aplus {
 		$char: "\E003";
 	}
-	@if $filename == aplus {
+	@if $filename == apple {
 		$char: "\E004";
 	}
-	@if $filename == apple {
+	@if $filename == bar {
 		$char: "\E005";
 	}
-	@if $filename == bar {
+	@if $filename == book {
 		$char: "\E006";
 	}
-	@if $filename == book {
+	@if $filename == checkmark {
 		$char: "\E007";
 	}
-	@if $filename == checkmark {
+	@if $filename == code {
 		$char: "\E008";
 	}
-	@if $filename == code {
+	@if $filename == cog {
 		$char: "\E009";
 	}
-	@if $filename == cog {
+	@if $filename == console {
 		$char: "\E00A";
 	}
-	@if $filename == console {
+	@if $filename == cross {
 		$char: "\E00B";
 	}
-	@if $filename == cross {
+	@if $filename == database {
 		$char: "\E00C";
 	}
-	@if $filename == database {
+	@if $filename == diagram {
 		$char: "\E00D";
 	}
-	@if $filename == diagram {
+	@if $filename == down {
 		$char: "\E00E";
 	}
-	@if $filename == down {
+	@if $filename == f {
 		$char: "\E00F";
 	}
-	@if $filename == f {
+	@if $filename == facebook {
 		$char: "\E010";
 	}
-	@if $filename == facebook {
+	@if $filename == function {
 		$char: "\E011";
 	}
-	@if $filename == function {
+	@if $filename == google {
 		$char: "\E012";
 	}
-	@if $filename == google {
+	@if $filename == group {
 		$char: "\E013";
 	}
-	@if $filename == group {
+	@if $filename == home {
 		$char: "\E014";
 	}
 	@if $filename == hourglass {
@@ -117,65 +117,71 @@
 	@if $filename == pdf {
 		$char: "\E01E";
 	}
-	@if $filename == potion {
+	@if $filename == person {
 		$char: "\E01F";
 	}
-	@if $filename == profile {
+	@if $filename == potion {
 		$char: "\E020";
 	}
-	@if $filename == refresh {
+	@if $filename == profile {
 		$char: "\E021";
 	}
-	@if $filename == right {
+	@if $filename == refresh {
 		$char: "\E022";
 	}
-	@if $filename == rocket {
+	@if $filename == right {
 		$char: "\E023";
 	}
-	@if $filename == search {
+	@if $filename == rocket {
 		$char: "\E024";
 	}
-	@if $filename == server {
+	@if $filename == search {
 		$char: "\E025";
 	}
-	@if $filename == settings {
+	@if $filename == server {
 		$char: "\E026";
 	}
-	@if $filename == sharethis {
+	@if $filename == settings {
 		$char: "\E027";
 	}
-	@if $filename == speaker {
+	@if $filename == sharethis {
 		$char: "\E028";
 	}
-	@if $filename == tick {
+	@if $filename == speaker {
 		$char: "\E029";
 	}
-	@if $filename == timer {
+	@if $filename == tick {
 		$char: "\E02A";
 	}
-	@if $filename == tools {
+	@if $filename == timer {
 		$char: "\E02B";
 	}
-	@if $filename == twitter {
+	@if $filename == tools {
 		$char: "\E02C";
 	}
-	@if $filename == uncrossed {
+	@if $filename == twitter {
 		$char: "\E02D";
 	}
-	@if $filename == up {
+	@if $filename == uncrossed {
 		$char: "\E02E";
 	}
-	@if $filename == upload {
+	@if $filename == up {
 		$char: "\E02F";
 	}
-	@if $filename == warning {
+	@if $filename == upload {
 		$char: "\E030";
 	}
-	@if $filename == window {
+	@if $filename == warning {
 		$char: "\E031";
 	}
-	@if $filename == wire {
+	@if $filename == window {
 		$char: "\E032";
+	}
+	@if $filename == wire {
+		$char: "\E033";
+	}
+	@if $filename == bowtie {
+		$char: "\E034";
 	}
 
 	@return $char;
@@ -194,9 +200,6 @@
 
 .tuxicon-compass {
 	@include tuxicon(compass);
-}
-.tuxicon-bowtie {
-	@include tuxicon(bowtie);
 }
 .tuxicon-add {
 	@include tuxicon(add);
@@ -252,6 +255,9 @@
 .tuxicon-group {
 	@include tuxicon(group);
 }
+.tuxicon-home {
+	@include tuxicon(home);
+}
 .tuxicon-hourglass {
 	@include tuxicon(hourglass);
 }
@@ -281,6 +287,9 @@
 }
 .tuxicon-pdf {
 	@include tuxicon(pdf);
+}
+.tuxicon-person {
+	@include tuxicon(person);
 }
 .tuxicon-potion {
 	@include tuxicon(potion);
@@ -341,4 +350,7 @@
 }
 .tuxicon-wire {
 	@include tuxicon(wire);
+}
+.tuxicon-bowtie {
+	@include tuxicon(bowtie);
 }
