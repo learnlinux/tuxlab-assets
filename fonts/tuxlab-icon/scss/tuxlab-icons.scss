@@ -135,59 +135,62 @@
 	@if $filename == profile {
 		$char: "\E024";
 	}
-	@if $filename == refresh {
+	@if $filename == progress {
 		$char: "\E025";
 	}
-	@if $filename == right {
+	@if $filename == refresh {
 		$char: "\E026";
 	}
-	@if $filename == rocket {
+	@if $filename == right {
 		$char: "\E027";
 	}
-	@if $filename == search {
+	@if $filename == rocket {
 		$char: "\E028";
 	}
-	@if $filename == server {
+	@if $filename == search {
 		$char: "\E029";
 	}
-	@if $filename == settings {
+	@if $filename == server {
 		$char: "\E02A";
 	}
-	@if $filename == sharethis {
+	@if $filename == settings {
 		$char: "\E02B";
 	}
-	@if $filename == speaker {
+	@if $filename == sharethis {
 		$char: "\E02C";
 	}
-	@if $filename == tick {
+	@if $filename == speaker {
 		$char: "\E02D";
 	}
-	@if $filename == timer {
+	@if $filename == tick {
 		$char: "\E02E";
 	}
-	@if $filename == tools {
+	@if $filename == timer {
 		$char: "\E02F";
 	}
-	@if $filename == twitter {
+	@if $filename == tools {
 		$char: "\E030";
 	}
-	@if $filename == uncrossed {
+	@if $filename == twitter {
 		$char: "\E031";
 	}
-	@if $filename == up {
+	@if $filename == uncrossed {
 		$char: "\E032";
 	}
-	@if $filename == upload {
+	@if $filename == up {
 		$char: "\E033";
 	}
-	@if $filename == warning {
+	@if $filename == upload {
 		$char: "\E034";
 	}
-	@if $filename == window {
+	@if $filename == warning {
 		$char: "\E035";
 	}
-	@if $filename == wire {
+	@if $filename == window {
 		$char: "\E036";
+	}
+	@if $filename == wire {
+		$char: "\E037";
 	}
 
 	@return $char;
@@ -311,6 +314,9 @@
 }
 .tuxicon-profile {
 	@include tuxicon(profile);
+}
+.tuxicon-progress {
+	@include tuxicon(progress);
 }
 .tuxicon-refresh {
 	@include tuxicon(refresh);
