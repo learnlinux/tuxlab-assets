@@ -4,7 +4,7 @@
   src: url("/assets/fonts/tuxlab-icon/tuxlab-icon.eot");
   src: url("/assets/fonts/tuxlab-icon/tuxlab-icon.eot?#iefix") format("eot"), url("/assets/fonts/tuxlab-icon/tuxlab-icon.woff2") format("woff2"), url("/assets/fonts/tuxlab-icon/tuxlab-icon.woff") format("woff"), url("/assets/fonts/tuxlab-icon/tuxlab-icon.ttf") format("truetype"), url("/assets/fonts/tuxlab-icon/tuxlab-icon.svg#tuxlab-icon") format("svg"); }
 
-.tuxicon-compass:before, .tuxicon-bowtie:before, .tuxicon-add:before, .tuxicon-aplus:before, .tuxicon-apple:before, .tuxicon-bar:before, .tuxicon-book:before, .tuxicon-checkmark:before, .tuxicon-code:before, .tuxicon-cog:before, .tuxicon-console:before, .tuxicon-cross:before, .tuxicon-database:before, .tuxicon-diagram:before, .tuxicon-down:before, .tuxicon-enter:before, .tuxicon-f:before, .tuxicon-facebook:before, .tuxicon-function:before, .tuxicon-google:before, .tuxicon-group:before, .tuxicon-home:before, .tuxicon-hourglass:before, .tuxicon-infinite:before, .tuxicon-journal:before, .tuxicon-leave:before, .tuxicon-left:before, .tuxicon-lines:before, .tuxicon-linkedin:before, .tuxicon-list:before, .tuxicon-location:before, .tuxicon-multiple:before, .tuxicon-pdf:before, .tuxicon-person:before, .tuxicon-potion:before, .tuxicon-profile:before, .tuxicon-progress:before, .tuxicon-refresh:before, .tuxicon-right:before, .tuxicon-rocket:before, .tuxicon-search:before, .tuxicon-server:before, .tuxicon-settings:before, .tuxicon-sharethis:before, .tuxicon-speaker:before, .tuxicon-tick:before, .tuxicon-timer:before, .tuxicon-tools:before, .tuxicon-twitter:before, .tuxicon-uncrossed:before, .tuxicon-up:before, .tuxicon-upload:before, .tuxicon-warning:before, .tuxicon-window:before, .tuxicon-wire:before {
+.tuxicon-compass:before, .tuxicon-bowtie:before, .tuxicon-add:before, .tuxicon-aplus:before, .tuxicon-apple:before, .tuxicon-bar:before, .tuxicon-book:before, .tuxicon-checkmark:before, .tuxicon-code:before, .tuxicon-cog:before, .tuxicon-console:before, .tuxicon-cross:before, .tuxicon-database:before, .tuxicon-diagram:before, .tuxicon-down:before, .tuxicon-edit:before, .tuxicon-enter:before, .tuxicon-f:before, .tuxicon-facebook:before, .tuxicon-function:before, .tuxicon-google:before, .tuxicon-group:before, .tuxicon-home:before, .tuxicon-hourglass:before, .tuxicon-infinite:before, .tuxicon-journal:before, .tuxicon-leave:before, .tuxicon-left:before, .tuxicon-lines:before, .tuxicon-linkedin:before, .tuxicon-list:before, .tuxicon-location:before, .tuxicon-multiple:before, .tuxicon-pdf:before, .tuxicon-person:before, .tuxicon-potion:before, .tuxicon-profile:before, .tuxicon-progress:before, .tuxicon-refresh:before, .tuxicon-right:before, .tuxicon-rocket:before, .tuxicon-search:before, .tuxicon-server:before, .tuxicon-settings:before, .tuxicon-sharethis:before, .tuxicon-speaker:before, .tuxicon-tick:before, .tuxicon-timer:before, .tuxicon-tools:before, .tuxicon-twitter:before, .tuxicon-uncrossed:before, .tuxicon-up:before, .tuxicon-upload:before, .tuxicon-warning:before, .tuxicon-window:before, .tuxicon-wire:before {
   font-family: "tuxlab-icon";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -59,122 +59,125 @@
 .tuxicon-down:before {
   content: ""; }
 
-.tuxicon-enter:before {
+.tuxicon-edit:before {
   content: ""; }
 
-.tuxicon-f:before {
+.tuxicon-enter:before {
   content: ""; }
 
-.tuxicon-facebook:before {
+.tuxicon-f:before {
   content: ""; }
 
-.tuxicon-function:before {
+.tuxicon-facebook:before {
   content: ""; }
 
-.tuxicon-google:before {
+.tuxicon-function:before {
   content: ""; }
 
-.tuxicon-group:before {
+.tuxicon-google:before {
   content: ""; }
 
-.tuxicon-home:before {
+.tuxicon-group:before {
   content: ""; }
 
-.tuxicon-hourglass:before {
+.tuxicon-home:before {
   content: ""; }
 
-.tuxicon-infinite:before {
+.tuxicon-hourglass:before {
   content: ""; }
 
-.tuxicon-journal:before {
+.tuxicon-infinite:before {
   content: ""; }
 
-.tuxicon-leave:before {
+.tuxicon-journal:before {
   content: ""; }
 
-.tuxicon-left:before {
+.tuxicon-leave:before {
   content: ""; }
 
-.tuxicon-lines:before {
+.tuxicon-left:before {
   content: ""; }
 
-.tuxicon-linkedin:before {
+.tuxicon-lines:before {
   content: ""; }
 
-.tuxicon-list:before {
+.tuxicon-linkedin:before {
   content: ""; }
 
-.tuxicon-location:before {
+.tuxicon-list:before {
   content: ""; }
 
-.tuxicon-multiple:before {
+.tuxicon-location:before {
   content: ""; }
 
-.tuxicon-pdf:before {
+.tuxicon-multiple:before {
   content: ""; }
 
-.tuxicon-person:before {
+.tuxicon-pdf:before {
   content: ""; }
 
-.tuxicon-potion:before {
+.tuxicon-person:before {
   content: ""; }
 
-.tuxicon-profile:before {
+.tuxicon-potion:before {
   content: ""; }
 
-.tuxicon-progress:before {
+.tuxicon-profile:before {
   content: ""; }
 
-.tuxicon-refresh:before {
+.tuxicon-progress:before {
   content: ""; }
 
-.tuxicon-right:before {
+.tuxicon-refresh:before {
   content: ""; }
 
-.tuxicon-rocket:before {
+.tuxicon-right:before {
   content: ""; }
 
-.tuxicon-search:before {
+.tuxicon-rocket:before {
   content: ""; }
 
-.tuxicon-server:before {
+.tuxicon-search:before {
   content: ""; }
 
-.tuxicon-settings:before {
+.tuxicon-server:before {
   content: ""; }
 
-.tuxicon-sharethis:before {
+.tuxicon-settings:before {
   content: ""; }
 
-.tuxicon-speaker:before {
+.tuxicon-sharethis:before {
   content: ""; }
 
-.tuxicon-tick:before {
+.tuxicon-speaker:before {
   content: ""; }
 
-.tuxicon-timer:before {
+.tuxicon-tick:before {
   content: ""; }
 
-.tuxicon-tools:before {
+.tuxicon-timer:before {
   content: ""; }
 
-.tuxicon-twitter:before {
+.tuxicon-tools:before {
   content: ""; }
 
-.tuxicon-uncrossed:before {
+.tuxicon-twitter:before {
   content: ""; }
 
-.tuxicon-up:before {
+.tuxicon-uncrossed:before {
   content: ""; }
 
-.tuxicon-upload:before {
+.tuxicon-up:before {
   content: ""; }
 
-.tuxicon-warning:before {
+.tuxicon-upload:before {
   content: ""; }
 
-.tuxicon-window:before {
+.tuxicon-warning:before {
   content: ""; }
 
-.tuxicon-wire:before {
+.tuxicon-window:before {
   content: ""; }
+
+.tuxicon-wire:before {
+  content: ""; }
