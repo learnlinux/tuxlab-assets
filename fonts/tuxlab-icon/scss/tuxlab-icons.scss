@@ -30,25 +30,25 @@
 	@if $filename == compass {
 		$char: "\E001";
 	}
-	@if $filename == bowtie {
+	@if $filename == add {
 		$char: "\E002";
 	}
-	@if $filename == add {
+	@if $filename == aplus {
 		$char: "\E003";
 	}
-	@if $filename == aplus {
+	@if $filename == apple {
 		$char: "\E004";
 	}
-	@if $filename == apple {
+	@if $filename == bar {
 		$char: "\E005";
 	}
-	@if $filename == bar {
+	@if $filename == book {
 		$char: "\E006";
 	}
-	@if $filename == book {
+	@if $filename == checkmark {
 		$char: "\E007";
 	}
-	@if $filename == checkmark {
+	@if $filename == close {
 		$char: "\E008";
 	}
 	@if $filename == code {
@@ -195,6 +195,9 @@
 	@if $filename == wire {
 		$char: "\E038";
 	}
+	@if $filename == bowtie {
+		$char: "\E039";
+	}
 
 	@return $char;
 }
@@ -213,9 +216,6 @@
 .tuxicon-compass {
 	@include tuxicon(compass);
 }
-.tuxicon-bowtie {
-	@include tuxicon(bowtie);
-}
 .tuxicon-add {
 	@include tuxicon(add);
 }
@@ -233,6 +233,9 @@
 }
 .tuxicon-checkmark {
 	@include tuxicon(checkmark);
+}
+.tuxicon-close {
+	@include tuxicon(close);
 }
 .tuxicon-code {
 	@include tuxicon(code);
@@ -377,4 +380,7 @@
 }
 .tuxicon-wire {
 	@include tuxicon(wire);
+}
+.tuxicon-bowtie {
+	@include tuxicon(bowtie);
 }
