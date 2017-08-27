@@ -1,5 +1,5 @@
-﻿# tuxlab-assets
-TuxLab is an open source platform for creating Interactive Linux Courses. This repository contains the assets for the Logo, Icons, Fonts and Design for TuxLab application.  If you are instead looking for the application source code itself, visit the [App Repository](https://github.com/learnlinux/tuxlab-app).
+# [TuxLab Assets](http://tuxlab.org)
+Platform for creating Interactive Linux Courses.
 
 ## Logo
 The TuxLab logo is licensed under Creative Commons 3.0 with Attribution.
